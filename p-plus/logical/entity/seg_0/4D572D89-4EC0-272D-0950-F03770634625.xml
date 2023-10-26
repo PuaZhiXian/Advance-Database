@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D572D89-4EC0-272D-0950-F03770634625" name="assemble">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>31ECCC27-31CE-D986-A63E-2AD09C054215</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="product product id" id="325C7664-F265-49E3-110B-E6B337418A13">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>F6A98125-BBF3-755D-3520-7449B588D22E</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<referedAttribute>3788573C-627C-FF2C-C001-9923C4AB88BB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="material material id" id="370BEE52-6CFE-B6A0-0703-631391D4BD14">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>B897C565-D7C3-8C35-069F-C5556C1FDA54</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<referedAttribute>FA0EE3A9-F8D3-BBC1-6DFC-B94797EF7DE1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBFE187C-C407-E356-6DF7-8AC97982E109" name="assemble pk">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>460FD6AE-6139-684B-72D9-7D57C8FBF8A1</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>325C7664-F265-49E3-110B-E6B337418A13</attributeRef>
+<attributeRef>370BEE52-6CFE-B6A0-0703-631391D4BD14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

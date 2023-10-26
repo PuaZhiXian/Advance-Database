@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CF27FA1-21C8-FDB8-BD56-E68327610625" name="staff">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>F20EAF67-8754-2CD7-F7CF-DC2D8AFB5A85</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staff_id" id="EC9C1F06-7031-2B4F-EB6B-8232F7D000C6">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>1D88BBF6-EA36-64A3-9EB8-448CEA6B0158</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_id" id="CCD0E2D1-2FD3-7BF3-6807-1915539E213B">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>797F5A05-49AE-EA84-4DDB-1F40BEF310CC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_name" id="6897FDB9-DD65-2A7E-7667-08381B2CF068">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>A93E38F9-06FD-37C6-1664-688329E1AE57</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_age" id="245932BE-25E2-92DA-F946-85A763590AC2">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>FE3CA775-CA29-41BB-51C8-F215103291D8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>35F72493-1BD1-D115-09DE-2D69CA8AF2D3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_email" id="5A1C8B62-5066-93BC-6F83-F89268F4E97D">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>8ADDFB42-5DBE-DAA3-580C-5E65A68BDEDD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_address" id="01704B5B-17F5-DED8-3A89-95F60579D9FA">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>5B6FACCE-A058-21F8-0A24-3F053FB09E8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_contact" id="8EB1FC22-5E1A-058D-66CF-C150DFB2FBE8">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>4DDD2722-3D59-FEEA-DB55-7B3C2B12304A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_income_tax_id" id="487F23E6-1BA3-4984-094B-13D10DEB7621">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>FC5182FF-8E10-CC82-CDA9-29ABCE92C464</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_bank_acc_num" id="6F0AB70F-FFE9-23CD-61E4-D1688D8C7A60">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>0BA3AF02-4E98-9B61-03B2-CA8CE35978BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_department_id" id="E0053D80-3DCA-A77E-8963-5B47C4F8D9B2">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>87C86AE2-7A9C-9959-0B81-4B597B9D5CFA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4BFF41-E4CE-928B-EEE3-88BC05E8A757" referredColumn="42E83A15-458F-42B5-407D-A83BB647A489"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F9DFDC8-6DED-997E-2F1D-83128939252A" name="staff_pk">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>E399EAE6-D4C1-438E-C128-C445F33970E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9C1F06-7031-2B4F-EB6B-8232F7D000C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7C57B26-4F3C-44F1-8158-7685A919343F" name="staff_department_fk">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0053D80-3DCA-A77E-8963-5B47C4F8D9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

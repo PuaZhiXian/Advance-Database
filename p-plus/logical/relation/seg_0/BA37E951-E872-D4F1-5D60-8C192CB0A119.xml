@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cmr_or_payment_fk" directorySegmentName="seg_0" id="BA37E951-E872-D4F1-5D60-8C192CB0A119">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>6863A893-1087-95EF-C693-4110A6B3BE83</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<sourcePk>F53818F8-B444-CD36-1091-ECA942385C82</sourcePk>
+<dominantRole>7A4FBCB6-AB09-120B-D937-CC45AE8358B3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A4FBCB6-AB09-120B-D937-CC45AE8358B3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9254AA9E-B26E-07D9-AE87-7B65312DE3E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="p-plus" id="A79BA181-D3B5-79EA-42EF-40A7CFAD6FFB" version="3.5">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:15:57 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A79BA181-D3B5-79EA-42EF-40A7CFAD6FFB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="ABC54D54-084B-6938-EDF7-FD84B23BEB37">
+<designStoragePath>D:\DDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

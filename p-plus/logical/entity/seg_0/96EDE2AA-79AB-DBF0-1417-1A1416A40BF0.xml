@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96EDE2AA-79AB-DBF0-1417-1A1416A40BF0" name="staff">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>1CF27FA1-21C8-FDB8-BD56-E68327610625</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staff id" id="D976A373-E65B-7788-708F-E89CA3DF57CA">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>EC9C1F06-7031-2B4F-EB6B-8232F7D000C6</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department id" id="6699AD59-2D42-76D6-C8AF-439D9BD9E9F9">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>CCD0E2D1-2FD3-7BF3-6807-1915539E213B</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff name" id="6F147E0E-9AF0-E01A-7EB8-B4CF32780FD7">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>6897FDB9-DD65-2A7E-7667-08381B2CF068</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff age" id="1E2B0D20-90C4-D7E3-5654-C13EED88EBC4">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>245932BE-25E2-92DA-F946-85A763590AC2</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>35F72493-1BD1-D115-09DE-2D69CA8AF2D3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff email" id="A7CF5170-4954-42DA-8016-FEABC8E246A8">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>5A1C8B62-5066-93BC-6F83-F89268F4E97D</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff address" id="214EF76B-EDB3-9C48-D200-100F2A3B8210">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>01704B5B-17F5-DED8-3A89-95F60579D9FA</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff contact" id="C54E12A3-DCA3-E866-3CA5-671C51FFB396">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>8EB1FC22-5E1A-058D-66CF-C150DFB2FBE8</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff income tax id" id="98D489B7-00E2-AB7D-679A-D14C49FF6D24">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>487F23E6-1BA3-4984-094B-13D10DEB7621</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff bank acc num" id="21B53965-7C50-4311-23CD-83D90FB32F1A">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>6F0AB70F-FFE9-23CD-61E4-D1688D8C7A60</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department department id" id="4222DB7D-116F-1CD0-A381-6A63D6EA1D73">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>E21ECAEC-E6ED-CA0B-7A81-B0BBE11C8A09</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<referedAttribute>4830A367-EE76-2D4A-83B1-CFCD7DF80783</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F652EFF1-DF35-0D5A-6C51-ADF3B4AC6B2D" name="staff pk">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>0F9DFDC8-6DED-997E-2F1D-83128939252A</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D976A373-E65B-7788-708F-E89CA3DF57CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

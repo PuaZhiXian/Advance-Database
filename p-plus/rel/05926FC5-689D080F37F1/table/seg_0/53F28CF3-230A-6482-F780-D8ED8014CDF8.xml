@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53F28CF3-230A-6482-F780-D8ED8014CDF8" name="order_details">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>4262BCCF-DE2F-95F2-7CEC-9A992CEE3A8E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="product_product_id" id="D9D4397F-14E1-FF49-9F5E-2F375AC6CB67">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>07D657CA-E2D6-E834-17B6-64061DBF2F75</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68095552-0BC8-BC97-6D64-1BC998B34DF9" referredColumn="3DE5C048-FFE7-7027-7502-AE0167C9E6C1"/>
+</associations>
+</Column>
+<Column name="cmr_or_cmr_or_id" id="EA75BD7D-C7F9-E5E8-C2C4-4A2913C0A476">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>5895430B-97E7-468E-A76F-804C5975A07D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C193116A-0403-BBDB-482B-AFFEDB27E228" referredColumn="29BDCA93-F030-1382-26A3-3278CECE02AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB198660-F1CE-45E0-22F6-F56503FCAC34" name="order_details_pk">
+<sourceDDLFile>DDL.ddl</sourceDDLFile>
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<importedID>4AEF4E62-37B4-B33A-9790-5B6984F6CC8A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D4397F-14E1-FF49-9F5E-2F375AC6CB67"/>
+<colUsage columnID="EA75BD7D-C7F9-E5E8-C2C4-4A2913C0A476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C69FE464-3739-0744-ADB6-B56475049B46" name="order_details_cmr_or_fk">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA75BD7D-C7F9-E5E8-C2C4-4A2913C0A476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A44FD233-0BD1-5B9A-D1C0-616D913B7B15" name="order_details_product_fk">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:20 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D4397F-14E1-FF49-9F5E-2F375AC6CB67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

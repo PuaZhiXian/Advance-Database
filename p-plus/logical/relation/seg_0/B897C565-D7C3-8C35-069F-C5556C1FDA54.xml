@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="assemble_material_fk" directorySegmentName="seg_0" id="B897C565-D7C3-8C35-069F-C5556C1FDA54">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>5BDB175A-C1A8-86DD-F873-AB3CBA92B835</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<sourcePk>5C180DC5-7F72-E737-AF11-B77EC52E514D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77EC27A4-1F37-4CA0-A5ED-9A5331C71F0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D572D89-4EC0-272D-0950-F03770634625</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

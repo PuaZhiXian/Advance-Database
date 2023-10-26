@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="assemble_product_fk" directorySegmentName="seg_0" id="F6A98125-BBF3-755D-3520-7449B588D22E">
+<createdBy>xianp</createdBy>
+<createdTime>2023-10-25 15:17:43 UTC</createdTime>
+<generatorID>D1161EE4-56C3-3F83-7851-683E2E158CDF</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<engineerTo>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+</engineerTo>
+<sourcePk>8E9273E3-AA39-C759-FB69-ABE462ECB35F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3E3E3C1-72A5-51FA-FDDE-607451A1ADDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D572D89-4EC0-272D-0950-F03770634625</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
