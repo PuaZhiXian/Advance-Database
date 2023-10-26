@@ -54,6 +54,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="537" y="597" width="270" height="206"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AE8D8DFB-291E-708A-5420-CCF731661E75" otype="Entity" vid="3F548BEC-ADB6-4555-6613-AB190DA54D4B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="414" y="76" width="484" height="391"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B3E3E3C1-72A5-51FA-FDDE-607451A1ADDA" otype="Entity" vid="81126EE0-148F-496E-A714-ADCF03D42442">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="903" y="171" width="282" height="136"/>
