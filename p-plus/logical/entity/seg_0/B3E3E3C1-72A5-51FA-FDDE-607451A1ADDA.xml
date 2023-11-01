@@ -50,10 +50,11 @@
 <engineerTo>
 <item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>2D7093C2-658B-930E-D882-E98D8DD903B0</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date of manufacture" id="D8A3AF72-C0E0-F37B-4F2F-BE066E9EBC3F">
 <createdBy>xianp</createdBy>

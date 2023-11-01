@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="staff" directorySegmentName="seg_0" id="6248CC73-B59D-DF79-8C6B-E4526A589061">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="staff_id" id="1DAD2835-86EB-B680-7963-B81F37383BCE">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_address" id="321C41C6-33A0-F823-7284-38104A995966">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="department_department_id" id="3F47A8B2-6A31-C955-E321-0A00C0A8A394">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_income_tax_id" id="482DD1E0-2D01-72FC-F066-2DB1A6D27F1B">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_contact" id="591E1EDD-B8F4-0EAD-2773-F603FC083A45">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_age" id="5F61C9F4-5B47-C7A8-0E45-001328FD3853">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_name" id="91872A00-C230-1899-73B0-E0F38EA82151">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_bank_acc_num" id="B8CF495C-7635-678A-6DD3-3AFE6278AB60">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="department_id" id="EEAF5BEF-E15C-D950-35BA-A98C2EEDDE96">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_email" id="F2F86823-40AB-DDB2-86EC-7F007310887F">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="staff_department_FK" id="BF8DC377-699C-C07B-E9C0-215BCFC0379A">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="staff_PK" id="F1663670-5FC6-63F1-1F80-3A5BF42A27FD">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

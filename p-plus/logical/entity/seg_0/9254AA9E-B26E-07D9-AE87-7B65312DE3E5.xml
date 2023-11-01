@@ -76,10 +76,12 @@
 <engineerTo>
 <item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>0211F61B-7E2B-DE88-C377-117C29623B38</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cmr cmr id" id="DB48E976-CB63-2224-CC89-77801C9B3206">
 <createdBy>xianp</createdBy>
@@ -90,20 +92,6 @@
 <item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
 </engineerTo>
 <referedAttribute>E048A322-379F-54C7-404E-F3F945D51610</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="payment payment id" id="E50CF337-716F-E91E-65CC-F07DA7C0D9DF">
-<createdBy>xianp</createdBy>
-<createdTime>2023-10-25 15:17:43 UTC</createdTime>
-<generatorID>BA37E951-E872-D4F1-5D60-8C192CB0A119</generatorID>
-<ownerDesignName>p-plus</ownerDesignName>
-<engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
-</engineerTo>
-<referedAttribute>A56DC94D-FE6C-33BF-3A43-4564F650DE00</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>

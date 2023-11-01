@@ -42,19 +42,6 @@
 <domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="material id" id="1992D095-A058-6D41-6F96-E5FEADD9F5AB">
-<createdBy>xianp</createdBy>
-<createdTime>2023-10-25 15:17:43 UTC</createdTime>
-<generatorID>675CC17E-B7DA-C970-6593-2CA0A0F5BF82</generatorID>
-<ownerDesignName>p-plus</ownerDesignName>
-<engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="staff id" id="68CCC9AC-7C76-2FB4-15AE-57E99CFD4654">
 <createdBy>xianp</createdBy>
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
@@ -115,10 +102,12 @@
 <engineerTo>
 <item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>0211F61B-7E2B-DE88-C377-117C29623B38</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="spp spp id" id="09457CFA-E48E-6E14-E660-528FF72D06C9">
 <createdBy>xianp</createdBy>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A246544-7CF7-CF5C-4336-0B84EAB12619" name="spp_or">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>028B6D2E-BE7D-DC70-CDEA-4067AB420668</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="spp_or_id" id="CA594AE0-D8CF-C99F-664F-A48BE565EEB6">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>483F0C22-58D3-2F1F-DFAA-3C54CBF4465C</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spp_id" id="3DBD9E03-9941-740D-95BF-338297A97FF5">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>044A802D-81AB-40F2-C2E4-B4AFC7CAD8D1</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_id" id="F15B7E7D-9187-C731-F31D-CC6CC6FD9474">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>68CCC9AC-7C76-2FB4-15AE-57E99CFD4654</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_date" id="B47BE0BE-E910-DD67-4DE8-AB34D061B259">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>93CE7905-D012-E615-8052-37F9487C40C2</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3A84B2BB-C05C-8624-E232-5F09E236CA2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shipped_date" id="480DB7C9-9D06-9F9E-CB00-D003BBE1E9D8">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>67EF3BEC-BFC7-77D1-1ECB-00132F71DDB6</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3A84B2BB-C05C-8624-E232-5F09E236CA2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_status" id="F3EB101A-E83F-6990-CF15-ED81893150E9">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>9C317475-7056-2BB2-5C81-801A7186881C</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_order_price" id="042D3DD1-788C-92E1-AF63-55ED0B37D289">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>833659FC-D54B-B933-A739-F1D418249B65</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spp_spp_id" id="E2B0D275-C212-F01B-D9FB-1156DFB99AEC">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>09457CFA-E48E-6E14-E660-528FF72D06C9</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29D2BDB8-A834-6FD8-92D4-FA378FE820AF" referredColumn="7E1C58F0-E2AD-89C6-B55D-6D004BB2066C"/>
+</associations>
+</Column>
+<Column name="product_product_id" id="EA9934FD-8055-53FD-8241-EB258637A7C4">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>3F21BBF3-8C0A-9EFA-1489-FD1E9D0AF837</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB0435DA-FE6F-2379-1941-9535B9197799" referredColumn="39AB9DD7-4907-D812-38D8-9531258E570C"/>
+</associations>
+</Column>
+<Column name="staff_staff_id" id="B1DB7ED5-305A-DBFD-AE6D-E1772794A251">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>907CB25B-B3D4-4C79-BDB2-C0C608C77319</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D33E92B-846D-3005-5DE2-BAA70C805AF4" referredColumn="1DAD2835-86EB-B680-7963-B81F37383BCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="824505F4-FEDD-408E-DB90-6841FB1814D8" name="spp_or_PK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>8722884B-585C-8836-746B-0996481776DA</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA594AE0-D8CF-C99F-664F-A48BE565EEB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B588D7D9-60AB-4766-D7AB-66D652F7C5AF" name="spp_or_product_FK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>AB2255DA-DE92-F93F-8A9D-E5CC2A9698DE</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9934FD-8055-53FD-8241-EB258637A7C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="729D2645-59D0-DCB6-3278-62C2651A9B3F" name="spp_or_spp_FK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>4124C32E-4FF6-0FD6-6A97-FBF2866F153F</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B0D275-C212-F01B-D9FB-1156DFB99AEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA722EF6-0B80-D306-0B0C-1F1FA7EBDF7D" name="spp_or_staff_FK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>B37146A5-EC3F-AFC9-E182-C4DFFEF20BDD</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1DB7ED5-305A-DBFD-AE6D-E1772794A251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

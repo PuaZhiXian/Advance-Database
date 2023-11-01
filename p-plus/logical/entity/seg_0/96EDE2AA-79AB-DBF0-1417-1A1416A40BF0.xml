@@ -63,10 +63,11 @@
 <engineerTo>
 <item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>35F72493-1BD1-D115-09DE-2D69CA8AF2D3</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="staff email" id="A7CF5170-4954-42DA-8016-FEABC8E246A8">
 <createdBy>xianp</createdBy>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D64DDF79-206C-A626-A7DC-505E4357FF1D" name="cmr_or">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>9254AA9E-B26E-07D9-AE87-7B65312DE3E5</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmr_or_id" id="149F684C-F961-C7A8-93D5-F5BF24F894D8">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>3672D394-1163-6A69-AF47-A031F5A1E731</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_date" id="7E2C5E67-1735-CEF6-AEF9-F00C941E3007">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>15DAE9F0-0640-9899-21A4-65357C8807B4</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3A84B2BB-C05C-8624-E232-5F09E236CA2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shipped_date" id="0314A4DB-371D-3A1B-5E38-748B0D6F9BF0">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>76F3DA9F-9767-BA5F-3308-55D10762DA01</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3A84B2BB-C05C-8624-E232-5F09E236CA2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_status" id="8068086B-2360-A0F4-EDD4-A60EEDE49FF2">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>77A234C5-FA90-4C20-E423-5E266FBF7052</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_order_price" id="F4D506B7-11F1-980F-29BA-76EE412BB2BC">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>1B513222-3E0F-13EB-9698-2A92842A0085</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmr_cmr_id" id="F9B65916-ADB8-DE70-EA34-9AFD1C1CCE83">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>DB48E976-CB63-2224-CC89-77801C9B3206</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4563F5C7-CDA7-1A3F-E37A-D1013AE14F05" referredColumn="ABBF5E2A-DC79-F9A0-136D-7B5B7A8B2BC5"/>
+</associations>
+</Column>
+<Column name="staff_staff_id" id="33DFC073-F94D-4D69-2757-7A8277409A37">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>66568604-8B1E-4954-E287-83FBF5D69B97</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E36B9F2A-3A70-194E-4480-2C337FA4AD5F" referredColumn="1DAD2835-86EB-B680-7963-B81F37383BCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1E5F158-57D0-15AF-92D1-8718DC9A53C9" name="cmr_or_PK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>FB64D54C-A3F7-4701-64B1-01E199163668</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149F684C-F961-C7A8-93D5-F5BF24F894D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5FD8C11-BF9F-1071-F756-6120BFFCAB33" name="cmr_or_cmr_FK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>5EA4AA03-A82D-CC53-DA46-F5448A09D01B</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B65916-ADB8-DE70-EA34-9AFD1C1CCE83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DADF9F5A-DBC1-7981-C2F8-5BC016BEDF9F" name="cmr_or_staff_FK">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<generatorID>D7A7F083-574C-028C-BC93-5527A612EC77</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33DFC073-F94D-4D69-2757-7A8277409A37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
