@@ -42,7 +42,7 @@
 <domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cmr contract" id="DE8C5B0D-5BA9-1E1D-C5C8-B895409E85DE">
+<Attribute name="cmr contact" id="DE8C5B0D-5BA9-1E1D-C5C8-B895409E85DE">
 <createdBy>xianp</createdBy>
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
 <generatorID>062EE639-CEBF-949B-C74F-F84D5AD27D9F</generatorID>

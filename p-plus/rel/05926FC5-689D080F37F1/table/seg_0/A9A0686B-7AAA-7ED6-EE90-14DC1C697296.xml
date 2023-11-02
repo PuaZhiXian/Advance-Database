@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cmr_contract" id="117E6332-6097-7EC4-055A-BFB32B9FB905">
+<Column name="cmr_contact" id="117E6332-6097-7EC4-055A-BFB32B9FB905">
 <createdBy>xianp</createdBy>
 <createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>DE8C5B0D-5BA9-1E1D-C5C8-B895409E85DE</generatorID>

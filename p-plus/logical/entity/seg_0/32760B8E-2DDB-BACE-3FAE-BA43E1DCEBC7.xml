@@ -42,7 +42,7 @@
 <domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="spp contract" id="DE751B22-B727-8C2F-A612-2A048CB237CD">
+<Attribute name="spp contact" id="DE751B22-B727-8C2F-A612-2A048CB237CD">
 <createdBy>xianp</createdBy>
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
 <generatorID>9FC9D7D0-522E-F66F-4071-98E01B52F1F6</generatorID>

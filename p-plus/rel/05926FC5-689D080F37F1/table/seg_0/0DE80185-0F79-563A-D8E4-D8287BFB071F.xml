@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="spp_contract" id="FBE8F471-5294-9CB6-E832-B2112810347B">
+<Column name="spp_contact" id="FBE8F471-5294-9CB6-E832-B2112810347B">
 <createdBy>xianp</createdBy>
 <createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>DE751B22-B727-8C2F-A612-2A048CB237CD</generatorID>
