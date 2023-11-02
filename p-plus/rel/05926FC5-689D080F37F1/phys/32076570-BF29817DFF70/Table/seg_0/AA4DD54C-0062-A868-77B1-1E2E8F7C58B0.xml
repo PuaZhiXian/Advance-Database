@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="department" directorySegmentName="seg_0" id="AA4DD54C-0062-A868-77B1-1E2E8F7C58B0">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="department_name" id="3C5D0F02-1A79-1A2E-5AEB-BFB57D2472D3">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="department_id" id="AFCC5381-E2FA-8549-BC1C-24FF43ED3D5E">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="number_of_staff" id="C10707A2-361B-DBC3-8362-1747CF183ACA">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="department_location" id="C68504D6-C53D-E1A3-CFE9-0039311FCB4F">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="head_of_department" id="C96EDF28-3952-11FB-05CA-224EABADB704">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="department_PK" id="B334CA0D-AF5B-87F5-DB59-0D95B9C28640">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

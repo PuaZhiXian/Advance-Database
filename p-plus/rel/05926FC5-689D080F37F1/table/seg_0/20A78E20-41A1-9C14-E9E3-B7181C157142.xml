@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A90C79B-C103-C31A-94F7-FB3A6D898BB7" name="product">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20A78E20-41A1-9C14-E9E3-B7181C157142" name="product">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>B3E3E3C1-72A5-51FA-FDDE-607451A1ADDA</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="product_id" id="39AB9DD7-4907-D812-38D8-9531258E570C">
+<Column name="product_id" id="D53BDCD2-F171-E531-EE74-081F29866725">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>3788573C-627C-FF2C-C001-9923C4AB88BB</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="product_name" id="6E231D71-68C4-D00D-45A8-5F80D13F6867">
+<Column name="product_name" id="71ACD67E-E26A-BF11-5DA7-8681DC2540A9">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>09EB9AB5-0E62-D81B-13B4-81FE5F5AFCE1</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="product_quatity" id="C319945B-B0BB-1B6C-B3DB-4D44AAAE67D7">
+<Column name="product_quantity" id="27A2D79D-0CDF-BCE5-857F-3868CBBF53CB">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>93569209-B21A-7D51-F254-B8FCE2871059</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="date_of_manufacture" id="2557C039-E050-5CA9-095D-F6B26050BF9C">
+<Column name="date_of_manufacture" id="9B92060B-7134-F5B8-1DFE-3CCD9C24926B">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>D8A3AF72-C0E0-F37B-4F2F-BE066E9EBC3F</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -53,9 +53,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="department_department_id" id="AD2AB01B-E566-17A8-BA34-FCA354756471">
+<Column name="department_department_id" id="E4D324F2-1B09-02CB-1ECC-80777BA997C9">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>E0037BFC-1919-189A-BA5C-531B9539561A</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -65,32 +65,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="06B03F3E-A59B-A5BE-DEE4-2EA191ECF353" referredColumn="193EEDC3-4A73-D15B-43A2-C76CDD75D58E"/>
+<colAssociation fkAssociation="7A837542-2839-D680-E61D-6E0805C06CB9" referredColumn="AFCC5381-E2FA-8549-BC1C-24FF43ED3D5E"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A6E5A9EA-C468-94B5-DC4E-0685FCD8EE31" name="product_PK">
+<ind_PK_UK id="4EED8F65-671D-3E48-153A-A25B4A507202" name="product_PK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>8E9273E3-AA39-C759-FB69-ABE462ECB35F</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39AB9DD7-4907-D812-38D8-9531258E570C"/>
+<colUsage columnID="D53BDCD2-F171-E531-EE74-081F29866725"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3EEFB3E6-149D-1682-93FD-8767CEF0202C" name="product_department_FK">
+<ind_PK_UK id="F49AC49C-6999-1C4B-E8C8-03758B27DE71" name="product_department_FK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>A824B3B6-1BC5-5960-F17A-95E798E6B079</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AD2AB01B-E566-17A8-BA34-FCA354756471"/>
+<colUsage columnID="E4D324F2-1B09-02CB-1ECC-80777BA997C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

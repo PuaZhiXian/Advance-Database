@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="cmr" directorySegmentName="seg_0" id="A9A0686B-7AAA-7ED6-EE90-14DC1C697296">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cmr_contract" id="117E6332-6097-7EC4-055A-BFB32B9FB905">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cmr_email" id="5B003286-BBFC-61AC-ED3E-EC0FE143D401">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cmr_address" id="E376E421-843D-014F-16D6-1148060A1863">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cmr_name" id="E98B585D-7998-954D-13A2-1C9B015D8CDB">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cmr_id" id="EAFE6759-A2A0-21AC-0B94-06A61F64D519">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="cmr_PK" id="28A4DDDB-B2FE-D926-A448-EE601464A7BD">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

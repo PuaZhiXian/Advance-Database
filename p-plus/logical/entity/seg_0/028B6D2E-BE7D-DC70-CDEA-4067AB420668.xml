@@ -29,32 +29,6 @@
 <domain>C060DD19-FE00-2138-A571-F7E98F7965DB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="spp id" id="044A802D-81AB-40F2-C2E4-B4AFC7CAD8D1">
-<createdBy>xianp</createdBy>
-<createdTime>2023-10-25 15:17:43 UTC</createdTime>
-<generatorID>93A027B8-A799-8693-FE40-E0C85F0B1BC3</generatorID>
-<ownerDesignName>p-plus</ownerDesignName>
-<engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="staff id" id="68CCC9AC-7C76-2FB4-15AE-57E99CFD4654">
-<createdBy>xianp</createdBy>
-<createdTime>2023-10-25 15:17:43 UTC</createdTime>
-<generatorID>5B28721E-A880-33BD-0418-A8E02C125AEA</generatorID>
-<ownerDesignName>p-plus</ownerDesignName>
-<engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>FFA616C3-31A6-57C6-9A56-85387A6D8F22</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="order date" id="93CE7905-D012-E615-8052-37F9487C40C2">
 <createdBy>xianp</createdBy>
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
@@ -158,8 +132,9 @@
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
 <generatorID>FF551A76-5FB7-4877-A18A-89FF8EB84CDA</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

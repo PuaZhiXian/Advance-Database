@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5B09DBA-D2A8-1713-3CA0-FCA5C3BC05E6" name="spp">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA4DD54C-0062-A868-77B1-1E2E8F7C58B0" name="department">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>32760B8E-2DDB-BACE-3FAE-BA43E1DCEBC7</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>397E58B0-9D22-642B-12B8-66F335BEDA70</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="spp_id" id="7E1C58F0-E2AD-89C6-B55D-6D004BB2066C">
+<Column name="department_id" id="AFCC5381-E2FA-8549-BC1C-24FF43ED3D5E">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>43F687C2-A47C-7C5E-2A99-F14560F0E2CF</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>4830A367-EE76-2D4A-83B1-CFCD7DF80783</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="spp_name" id="36C1504D-7C05-AC8A-4D5A-3FB3F39B20A3">
+<Column name="department_name" id="3C5D0F02-1A79-1A2E-5AEB-BFB57D2472D3">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>6965E76E-1347-269D-2A85-D3C62B047C91</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>D8252169-5E9B-CA6B-92AA-6FFE8A69A5AF</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -30,10 +30,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="spp_contract" id="26E568F3-2F46-CCE7-7296-842E076077CD">
+<Column name="department_location" id="C68504D6-C53D-E1A3-CFE9-0039311FCB4F">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>DE751B22-B727-8C2F-A612-2A048CB237CD</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>A559960F-A4A4-8C33-F9FD-4E924327A000</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -41,29 +41,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="spp_address" id="C33D9006-36FA-7CDC-5E7C-C2341B61533C">
+<Column name="head_of_department" id="C96EDF28-3952-11FB-05CA-224EABADB704">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>C2A0F7B8-07BF-5B26-DA28-1E209C8ADA27</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>46BCBDA4-2261-B22A-1CCF-070B9564E5A4</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_staff" id="C10707A2-361B-DBC3-8362-1747CF183ACA">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>02D89084-FAA7-4ACA-0C51-654A18189149</generatorID>
+<ownerDesignName>p-plus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="04E3DA46-E7E0-CC19-A53D-8CEBEAB58DF6" name="spp_PK">
+<ind_PK_UK id="B334CA0D-AF5B-87F5-DB59-0D95B9C28640" name="department_PK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
-<generatorID>38FEFB72-524E-1D99-69D6-73CC0FE23DF6</generatorID>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<generatorID>C210976F-274B-0AD3-779F-C401E6B785C8</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7E1C58F0-E2AD-89C6-B55D-6D004BB2066C"/>
+<colUsage columnID="AFCC5381-E2FA-8549-BC1C-24FF43ED3D5E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

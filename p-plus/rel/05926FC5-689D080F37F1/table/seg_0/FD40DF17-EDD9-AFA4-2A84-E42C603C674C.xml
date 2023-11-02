@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="339C0511-4970-AE9C-4223-7EDAA568B426" name="order_details">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD40DF17-EDD9-AFA4-2A84-E42C603C674C" name="order_details">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>D54CAE94-8B58-4384-0B7D-8C3AFFEF3BBA</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="product_product_id" id="457617C0-746D-952A-E0DA-E8A5503999F7">
+<Column name="product_product_id" id="97CCE122-9597-1703-A2FB-72FE8F869B7F">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>F3FE7EDA-2901-A82F-88FC-A003687F308B</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -20,12 +20,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AB629399-2157-1B7C-9090-B0B7C20C1382" referredColumn="39AB9DD7-4907-D812-38D8-9531258E570C"/>
+<colAssociation fkAssociation="4765AABA-9FB4-1BAA-FEE5-BE77DBD8A861" referredColumn="D53BDCD2-F171-E531-EE74-081F29866725"/>
 </associations>
 </Column>
-<Column name="cmr_or_cmr_or_id" id="A4F32315-4713-8ADF-794C-098EA5FCB332">
+<Column name="cmr_or_cmr_or_id" id="FD2AD39F-97A4-1684-0467-EA591480DBA5">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>4D7952CC-D3E0-93CB-C47C-059C25926A88</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <use>0</use>
@@ -35,44 +35,44 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0BC787D3-0CA5-CFD5-7C34-F0220F9D55D6" referredColumn="149F684C-F961-C7A8-93D5-F5BF24F894D8"/>
+<colAssociation fkAssociation="43E0BAC9-6550-E3C1-008F-E8A4E7CC8060" referredColumn="2AA9173A-98E8-71C7-2361-052CFC8E9B52"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="817F89BD-BE90-8848-1201-4FC2E70BF0C7" name="order_details_PK">
+<ind_PK_UK id="CCB87847-E7B5-6521-C123-97CBE3D4AEBD" name="order_details_PK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>D2ECF48C-2C97-4ADE-A11C-7123881705C6</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="457617C0-746D-952A-E0DA-E8A5503999F7"/>
-<colUsage columnID="A4F32315-4713-8ADF-794C-098EA5FCB332"/>
+<colUsage columnID="97CCE122-9597-1703-A2FB-72FE8F869B7F"/>
+<colUsage columnID="FD2AD39F-97A4-1684-0467-EA591480DBA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3815C289-1C0A-CA11-E05D-39EA558DD3FE" name="order_details_cmr_or_FK">
+<ind_PK_UK id="9B1D2FC5-8509-09A8-0AF2-B65940C7509E" name="order_details_cmr_or_FK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>52C79CAE-4138-C8F3-A545-601316D51319</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A4F32315-4713-8ADF-794C-098EA5FCB332"/>
+<colUsage columnID="FD2AD39F-97A4-1684-0467-EA591480DBA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F4783598-C88D-58EC-C633-4FB4DE6B229C" name="order_details_product_FK">
+<ind_PK_UK id="201B0C2F-153A-629D-616C-34DE0EE9AE41" name="order_details_product_FK">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <generatorID>37D6B4A1-E203-E8CF-133A-DEA853ED3009</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="457617C0-746D-952A-E0DA-E8A5503999F7"/>
+<colUsage columnID="97CCE122-9597-1703-A2FB-72FE8F869B7F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

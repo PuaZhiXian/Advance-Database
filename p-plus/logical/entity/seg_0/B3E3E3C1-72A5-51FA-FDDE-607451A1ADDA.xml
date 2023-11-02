@@ -42,7 +42,7 @@
 <domain>5BE2972A-80E5-5796-B8E4-53E39850110D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="product quatity" id="93569209-B21A-7D51-F254-B8FCE2871059">
+<Attribute name="product quantity" id="93569209-B21A-7D51-F254-B8FCE2871059">
 <createdBy>xianp</createdBy>
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
 <generatorID>C4ABF74F-F40B-589A-29D7-7D0BC115EB59</generatorID>
@@ -90,8 +90,9 @@
 <createdTime>2023-10-25 15:17:43 UTC</createdTime>
 <generatorID>499E0B6D-F5C0-50AA-3F23-3BD79A65EFCC</generatorID>
 <ownerDesignName>p-plus</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="true"/>
+<item key="05926FC5-4A4E-CE09-D2AB-689D080F37F1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="spp" directorySegmentName="seg_0" id="B5B09DBA-D2A8-1713-3CA0-FCA5C3BC05E6">
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="spp" directorySegmentName="seg_0" id="0DE80185-0F79-563A-D8E4-D8287BFB071F">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -9,31 +9,31 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="spp_contract" id="26E568F3-2F46-CCE7-7296-842E076077CD">
+<ColumnProxy name="spp_name" id="30AD5969-D4ED-3A3D-7AE4-FCB48ABE6F04">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="spp_name" id="36C1504D-7C05-AC8A-4D5A-3FB3F39B20A3">
+<ColumnProxy name="spp_id" id="47EF5C0F-A1FC-1893-6FA7-1E70784A491B">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="spp_id" id="7E1C58F0-E2AD-89C6-B55D-6D004BB2066C">
+<ColumnProxy name="spp_address" id="86D32C76-8112-CE57-E79C-33546CCCC98A">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="spp_address" id="C33D9006-36FA-7CDC-5E7C-C2341B61533C">
+<ColumnProxy name="spp_contract" id="FBE8F471-5294-9CB6-E832-B2112810347B">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="spp_PK" id="04E3DA46-E7E0-CC19-A53D-8CEBEAB58DF6">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="spp_PK" id="DDCC3763-A863-6349-CB0A-BDE3AC8E3FD7">
 <createdBy>xianp</createdBy>
-<createdTime>2023-11-01 15:12:53 UTC</createdTime>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
 <ownerDesignName>p-plus</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

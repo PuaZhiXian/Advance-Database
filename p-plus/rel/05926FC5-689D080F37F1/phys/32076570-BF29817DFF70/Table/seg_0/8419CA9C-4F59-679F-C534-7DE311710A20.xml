@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="cmr_or" directorySegmentName="seg_0" id="8419CA9C-4F59-679F-C534-7DE311710A20">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cmr_or_id" id="2AA9173A-98E8-71C7-2361-052CFC8E9B52">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="shipped_date" id="34B113E2-CEA6-09AF-6FF3-E9F69D22D132">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="order_status" id="50462380-562D-C66F-930F-8376AB879065">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="order_date" id="5E30C7F7-52D7-AF8E-AF31-09A2880978E7">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cmr_cmr_id" id="B5D9AFC2-0768-AA2D-1E0A-C7D5BEAFC4B8">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total_order_price" id="CC3C75F9-2795-B54A-3E39-BF23158CAD0B">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staff_staff_id" id="FCF317C4-FE13-A182-75E8-4AECBD32EDA9">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="cmr_or_staff_FK" id="1B79C411-2829-60B8-3F7B-CF270922FCB1">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="cmr_or_cmr_FK" id="F35E8E1D-F2AF-9EC3-07BC-88848A30E916">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="cmr_or_PK" id="A952D061-1BBA-9F5F-0B2B-C4BE3ED42A0E">
+<createdBy>xianp</createdBy>
+<createdTime>2023-11-01 15:24:22 UTC</createdTime>
+<ownerDesignName>p-plus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
